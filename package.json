@@ -1,0 +1,12 @@
+{
+  "name": "webcomet",
+  "version": "0.9",
+  "description": "",
+  "main": "index.html",
+  "author": "Glen Le Baill",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

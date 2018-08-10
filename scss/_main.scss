@@ -1,0 +1,95 @@
+.point {
+    font-size: 35px;
+    color: $blue;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -230px;
+    z-index: 3;
+    margin-bottom: 80px;
+
+    @media all and(max-width: 950px) {
+        flex-direction: column;
+        text-align: center;
+        top: -250px;
+
+        .newButton {
+            position: relative;
+            left: calc(50% - 95px);
+        }
+    }
+}
+
+#creation_site_web_img {
+    width: 450px;
+    max-width: 450px;
+
+    @media all and(max-width: 950px) {
+        width: 80%;
+        margin-bottom: -10px;
+    }
+}
+
+#seo_img {
+    width: 400px;
+    max-width: 400px;
+
+    @media all and(max-width: 950px) {
+        width: 80%;
+        order: 1;
+        margin-bottom: 10px;
+    }
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+
+    h2 {
+        margin-bottom: 0px;
+    }
+
+    @media all and(max-width: 950px) {
+        order: 2;
+    }
+}
+
+.contact_box {
+    background: $blue;
+    padding: 50px;
+    color: white;
+    margin-top: -200px;
+    text-align: center;
+
+    @media all and(max-width: 950px) {
+        margin-top: -240px;
+    }
+}
+
+@media all and(min-width: 1200px) {
+    .box {
+        top: -950px;
+        width: 1200px;
+        justify-content: space-between;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main>div:first-child {
+        margin-bottom: 130px;
+    }
+
+    .contact_box {
+        margin-top: -820px;
+        width: 100%;
+    }
+}

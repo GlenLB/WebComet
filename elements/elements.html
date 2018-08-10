@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elements WebComet.fr</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        h1 {
+            color: #0040ff;
+        }
+
+
+        .newButton {
+            background: linear-gradient(#FFBA75, #ff8000);
+            padding: 20px;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: silver 5px 10px 10px;
+        }
+
+        .newButton:hover {
+            box-shadow: silver 5px 10px 15px;
+        }
+
+        .newButton:active {
+            padding: 19px;
+        }
+
+
+        li {
+            padding-bottom: 8px;
+            list-style-type: circle;
+        }
+
+        li:last-child {
+            padding-bottom: 0px;
+        }
+
+
+        a {
+            transition: .3s border-bottom;
+            color: black;
+            text-decoration: none;
+            border-bottom: 2px dashed #0040ff;
+        }
+
+        a:hover {
+            transition: .3s border-bottom;
+            border-bottom: 2px dashed #ff8000;
+        }
+
+
+        #menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            width: 40px;
+        }
+
+        #menu>span {
+            transition: all .4s;
+            width: 40px;
+            height: 5px;
+            background: linear-gradient(to right, #FFBA75, #ff8000);
+            margin-bottom: 8px;
+            border-radius: 4px;
+            box-shadow: silver 15px 15px 14px;
+        }
+
+        #menu>span:last-child {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ceci est un titre h1</h1>
+    <h2>Ceci est un titre h2</h2>
+    <h3>Ceci est un titre h3</h3>
+    <h4>Ceci est un titre h4</h4>
+
+    <br>
+    <br>
+
+    <span class="newButton">Cliquez-moi</span>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <ul>
+        <li>Ceci est une liste</li>
+        <li>contenant des informations listées</li>
+        <li>très informatives</li>
+        <li>et intéressantes</li>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <a href="#">Ceci est un lien</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>
+        Ceci est un paragraphe. Aimez-vous cette police de caractères ? Ceci est un paragraphe. Aimez-vous cette police de caractères ? Ceci est un paragraphe. Aimez-vous cette police de caractères ? Ceci est un paragraphe. Aimez-vous cette police de caractères ? Ceci est un paragraphe. Aimez-vous cette police de caractères ? Ceci est un paragraphe. Aimez-vous cette police de caractères ?
+    </p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <script>
+        let menu = document.getElementById("menu");
+        let menuActive = false;
+        menu.onclick = animationMenu;
+
+        function animationMenu() {
+            if (!menuActive) {
+                menu.children[0].style.position = "relative";
+                menu.children[0].style.transform = "rotate(45deg)";
+                menu.children[0].style.top = "14px";
+                menu.children[1].style.opacity = "0";
+                menu.children[2].style.position = "relative";
+                menu.children[2].style.transform = "rotate(-45deg)";
+                menu.children[2].style.bottom = "12px";
+                menuActive = true;
+            } else {
+                menu.children[0].style.transform = "rotate(0deg)";
+                menu.children[0].style.top = "0px";
+                menu.children[1].style.opacity = "1";
+                menu.children[2].style.transform = "rotate(0deg)";
+                menu.children[2].style.bottom = "0px";
+                menuActive = false;
+            }
+        }
+    </script>
+</body>
+
+</html>

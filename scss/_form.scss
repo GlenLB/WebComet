@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .newButton {
+        box-shadow: none;
+        margin-top: 30px;
+
+        &:hover {
+            box-shadow: none;
+        }
+    }
+}
+
+input[type="email"], textarea {
+    border-radius: 30px;
+    padding: 15px;
+    border: 0px;
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    max-width: 300px;
+    width: 300px;
+}
+
+textarea {
+    max-width: 300px;
+    width: 300px;
+    height: 200px;
+}
+
+::placeholder {
+    color: $orange;
+    font-weight: bold;
+}
+
+@media all and(max-width: 480px) {
+    input[type="email"] {
+        max-width: 200px;
+        width: 200px;
+    }
+    
+    textarea {
+        max-width: 200px;
+        width: 200px;
+    }
+}

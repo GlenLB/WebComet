@@ -1,0 +1,107 @@
+#header {
+    background: $blue;
+    padding-bottom: 180px;
+
+    h1 {
+        color: white;
+        font-size: 25px;
+    }
+}
+
+.separator {
+    height: 200px;
+    transform: rotate(-5deg);
+    background: white;
+    position: relative;
+    z-index: 2;
+    left: -100px;
+    top: -100px;
+    width: 150%;
+}
+
+#header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+
+    img {
+        max-width: 400px;
+    }
+
+    .newButton {
+        box-shadow: none;
+        position: relative;
+        top: 10px;
+        max-width: 400px;
+    }
+
+    div {
+        max-width: 400px;
+    }
+
+    @media all and (max-width: 950px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 5px;
+        padding-top: 30px;
+
+        .newButton {
+            top: 0px;
+            left: calc(50% - 90px);
+            margin-top: 5px;
+            margin-bottom: -10px;
+        }
+
+        img {
+            width: 80%;
+            order: 1;
+        }
+
+        div {
+            order: 2;
+            margin-top: 10px;
+        }
+    }
+}
+
+
+@media all and(min-width: 1200px) {
+        nav, #header-container {
+            width: 1100px;
+        }
+
+        nav {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        #header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 500px;
+        }
+
+        #header-container {
+            justify-content: space-between;
+            padding: 0px;
+            padding-top: 80px;
+        }
+
+        .separator {
+            height: 700px;
+            transform: rotate(-5deg);
+            background: white;
+            position: relative;
+            z-index: 2;
+            left: -40%;
+            top: -380px;
+            width: 200%;
+        }
+}
