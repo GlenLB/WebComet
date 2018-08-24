@@ -1,6 +1,0 @@
-- Charte graphique (logo, couleurs, polices)
-- Plan du site
-- Design du site (template ?)
-- Textes et images
-- Développement
-- Déploiement
