@@ -9,36 +9,47 @@
 }
 
 .separator {
+    display: block;
     height: 200px;
-    transform: rotate(-5deg);
+    width: 150%;
+    transform: rotate(-15deg);
     background: white;
     position: relative;
     z-index: 2;
-    left: -100px;
-    top: -100px;
+}
+
+.separator2 {
+    display: block;
+    height: 200px;
     width: 150%;
+    transform: rotate(15deg);
+    background: white;
+    position: relative;
+    z-index: 2;
+    top: -200px;
+}
+
+.separator-container {
+    margin-top: -50px;
+    margin-bottom: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #header-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 0px;
-
-    img {
-        max-width: 400px;
-    }
 
     .newButton {
         box-shadow: none;
         position: relative;
         top: 10px;
-        max-width: 400px;
-    }
-
-    div {
         max-width: 400px;
     }
 
@@ -53,19 +64,8 @@
 
         .newButton {
             top: 0px;
-            left: calc(50% - 90px);
             margin-top: 5px;
             margin-bottom: -10px;
-        }
-
-        img {
-            width: 80%;
-            order: 1;
-        }
-
-        div {
-            order: 2;
-            margin-top: 10px;
         }
     }
 }
@@ -89,19 +89,36 @@
         }
 
         #header-container {
-            justify-content: space-between;
             padding: 0px;
             padding-top: 80px;
         }
 
         .separator {
+            display: block;
             height: 700px;
-            transform: rotate(-5deg);
+            width: 150%;
+            transform: rotate(-10deg);
             background: white;
             position: relative;
             z-index: 2;
-            left: -40%;
-            top: -380px;
-            width: 200%;
+        }
+        
+        .separator2 {
+            display: block;
+            height: 700px;
+            width: 150%;
+            transform: rotate(10deg);
+            background: white;
+            position: relative;
+            z-index: 2;
+            top: -700px;
+        }
+        
+        .separator-container {
+            margin-top: -350px;
+            margin-bottom: -380px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 }
