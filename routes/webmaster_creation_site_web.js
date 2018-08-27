@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-let title = '<title>Création de site web</title>';
+let title = '<title>Webmaster Création de site vitrine à Rennes et SEO</title>';
 
-let description = '<meta name="description" content="Création de site web" />';
+let description = '<meta name="description" content="Création de site vitrine" />';
 
-let canonical = '<link rel="canonical" href="https://webcomet.fr/webmaster-creation-site-web" />';
+let canonical = '<link rel="canonical" href="https://webcomet.fr/webmaster-creation-site-vitrine" />';
 
 
 router.get('/', function (req, res, next) {

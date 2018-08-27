@@ -232,14 +232,14 @@ nav {
   max-width: 900px;
   width: 90%;
   margin: auto;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  padding-bottom: 10px; }
   .box:hover {
     box-shadow: 0px 0px 20px silver; }
   @media all and (max-width: 950px) {
     .box {
       flex-direction: column;
-      text-align: center;
-      top: -250px; }
+      text-align: center; }
       .box .newButton {
         position: relative;
         left: calc(50% - 95px); } }
@@ -254,7 +254,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background: white;
-    width: 95%;
+    width: 90%;
     padding: 10px; }
     @media all and (max-width: 950px) {
       .box .box-main {
@@ -298,11 +298,13 @@ nav {
   margin-top: 80px; }
   @media all and (max-width: 950px) {
     .contact_box {
-      margin-top: -240px; } }
+      margin-top: -10px; } }
 
 @media all and (min-width: 1200px) {
   #box1 {
     margin-top: -900px; }
+  #elem1 {
+    margin-top: -980px; }
   .box {
     margin-bottom: 100px;
     width: 1200px;
@@ -321,7 +323,8 @@ main {
 
 .titre {
   color: #0031C2;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 40px; }
 
 .speech {
   color: #0031C2; }
@@ -393,8 +396,25 @@ footer {
 
 .portfolio-container {
   display: flex;
-  flex-direction: row;
-  flex-flow: row wrap; }
+  flex-direction: column;
+  align-items: center; }
+
+.portfolio-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; }
+  .portfolio-row > :first-child {
+    margin-right: 10px; }
+  .portfolio-row > :last-child {
+    margin-left: 10px; }
+  @media all and (max-width: 950px) {
+    .portfolio-row {
+      flex-direction: column;
+      align-items: center; }
+      .portfolio-row > :first-child {
+        margin-right: 0px; }
+      .portfolio-row > :last-child {
+        margin-left: 0px; } }
 
 .box-portfolio {
   display: flex;
@@ -406,22 +426,29 @@ footer {
   border-radius: 10px;
   max-width: 400px;
   width: 90%;
-  margin: auto;
   padding-bottom: 20px; }
   .box-portfolio:hover {
     box-shadow: 0px 0px 20px silver; }
   .box-portfolio img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     margin: 0px;
-    padding: 0px; }
+    padding: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
   .box-portfolio .newButton {
     margin: auto; }
+  @media all and (max-width: 950px) {
+    .box-portfolio {
+      max-width: 400px;
+      width: 97%;
+      margin-bottom: 20px; }
+      .box-portfolio img {
+        max-width: 400px;
+        width: 97%; } }
 
 .box-portfolio-text {
   padding-left: 10px;
   padding-right: 10px; }
-  .box-portfolio-text h2 {
+  .box-portfolio-text h3 {
     text-align: center; }
   .box-portfolio-text p {
     text-align: justify; }

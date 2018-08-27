@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ROUTES
 app.use('/', index);
-app.use('/webmaster-creation-site-web', webmaster_creation_site_web);
+app.use('/webmaster-creation-site-vitrine', webmaster_creation_site_web);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

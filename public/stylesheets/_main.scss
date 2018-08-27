@@ -16,6 +16,7 @@
     width: 90%;
     margin: auto;
     margin-bottom: 80px;
+    padding-bottom: 10px;
 
     &:hover {
         box-shadow: 0px 0px 20px silver;
@@ -24,7 +25,6 @@
     @media all and(max-width: 950px) {
         flex-direction: column;
         text-align: center;
-        top: -250px;
 
         .newButton {
             position: relative;
@@ -45,7 +45,7 @@
         display: flex;
         justify-content: space-between;
         background: white;
-        width: 95%;
+        width: 90%;
         padding: 10px;
 
         @media all and(max-width: 950px) {
@@ -100,13 +100,17 @@
     margin-top: 80px;
 
     @media all and(max-width: 950px) {
-        margin-top: -240px;
+        margin-top: -10px;
     }
 }
 
 @media all and(min-width: 1200px) {
     #box1 {
         margin-top: -900px;
+    }
+
+    #elem1 {
+        margin-top: -980px;
     }
 
     .box {
@@ -136,6 +140,7 @@ main {
 .titre {
     color: $blue;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .speech {
