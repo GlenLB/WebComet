@@ -36,9 +36,14 @@ a {
   font-weight: bold;
   cursor: pointer;
   box-shadow: silver 5px 10px 10px;
-  z-index: 3; }
+  z-index: 3;
+  outline: none;
+  text-decoration: none;
+  display: block;
+  border-bottom: 0px; }
   .newButton:hover {
-    box-shadow: silver 5px 10px 15px; }
+    box-shadow: silver 5px 10px 15px;
+    border-bottom: 0px; }
   .newButton:active {
     padding: 19px; }
 

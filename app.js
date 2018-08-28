@@ -27,7 +27,7 @@ app.use(sassMiddleware({
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// ROUTES
+// ROUTER
 app.use('/', index);
 app.use('/webmaster-creation-site-vitrine', webmaster_creation_site_web);
 

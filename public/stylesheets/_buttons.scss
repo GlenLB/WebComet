@@ -11,16 +11,20 @@
     cursor: pointer;
     box-shadow: silver 5px 10px 10px;
     z-index: 3;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    border-bottom: 0px;
 
     &:hover {
         box-shadow: silver 5px 10px 15px;
+        border-bottom: 0px;
     }
 
     &:active {
         padding: 19px;
     }
 }
-
 
 #btn-contact {
     transition: all .2s;
