@@ -41,7 +41,7 @@ btnContact.onclick = function (e) {
     let y = setInterval(function () {
         if (i < val) {
             window.scrollTo(window.scrollX, i);
-            i+=40;
+            i += 40;
         } else {
             clearInterval(y);
         }
