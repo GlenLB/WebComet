@@ -6,6 +6,15 @@
         color: white;
         font-size: 25px;
     }
+
+    .lien-logo {
+        border-bottom: 0px;
+        outline: none;
+
+        &:hover {
+            border-bottom: 0px;
+        }
+    }
 }
 
 .separator {

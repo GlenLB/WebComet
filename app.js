@@ -8,6 +8,8 @@ var sassMiddleware = require('node-sass-middleware');
 // DECLARATION ROUTES
 var index = require('./routes/index');
 var webmaster_creation_site_web = require('./routes/webmaster_creation_site_web');
+var consultant_seo = require('./routes/consultant_seo');
+var mail = require('./routes/mail');
 
 var app = express();
 
@@ -30,6 +32,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // ROUTER
 app.use('/', index);
 app.use('/webmaster-creation-site-vitrine', webmaster_creation_site_web);
+app.use('/consultant-seo', consultant_seo);
+app.use('/mail', mail);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

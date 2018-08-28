@@ -129,6 +129,11 @@ nav {
   #header h1 {
     color: white;
     font-size: 25px; }
+  #header .lien-logo {
+    border-bottom: 0px;
+    outline: none; }
+    #header .lien-logo:hover {
+      border-bottom: 0px; }
 
 .separator {
   display: block;
