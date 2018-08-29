@@ -5,11 +5,15 @@ body {
   padding: 0px;
   margin: 0px; }
 
-body, html {
+body {
   position: relative;
   overflow-x: hidden;
   width: 100%;
   height: 100%; }
+
+html {
+  position: relative;
+  overflow-x: hidden; }
 
 li {
   padding-bottom: 8px;

@@ -109,13 +109,13 @@
                 <h2>Contactez-moi</h2>
 
                 <p>Contactez-moi pour une demande d'optimisation SEO</p>
-                <?php require 'partials/form.php';?>
+                <?php require('partials/form.php') ;?>
             </div>
         </main>
 
         <!-- TARIFS ANNUELS ABONNEMENT OU OPTIMISATION D'UN COUP + SUIVI -->
 
-        <?php require 'partials/footer.php';?>
+        <?php require('partials/footer.php') ;?>
     </body>
 
     </html>

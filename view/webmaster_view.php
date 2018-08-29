@@ -107,13 +107,13 @@
                 <h2>Contactez-moi</h2>
 
                 <p>Contactez-moi pour une demande de création de site vitrine</p>
-                <?php require 'partials/form.php';?>
+                <?php require('partials/form.php'); ?>
             </div>
         </main>
 
         <!-- AJOUTER TARIFS + PACKS AVEC CONTENU POUR CHAQUE PACK -->
 
-        <?php require 'partials/footer.php';?>
+        <?php require('partials/footer.php') ;?>
     </body>
 
     </html>
