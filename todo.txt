@@ -1,4 +1,4 @@
-Vérifier que j'ai sauvegarde de sauve le koala sur pc.
+Vérifier que j'ai sauvegarde de sauve le koala sur pc => Oui : Dans NetBeansProjects_old
 
 Redémarrer nouvelle instance vps OVH (écraser ancienne)
 
@@ -6,6 +6,8 @@ Y installer npm node pm2
 
 Faire modifs sur fichiers source : port
 
-Deployer, mettre node_env sur production et lancer avec pm2
+Deployer sur serveur, mettre node_env sur production et lancer avec pm2
 
 Voir pour https cerbot
+
+Migrer jeu sur node.js
