@@ -1,4 +1,10 @@
-<%- include('partials/head'); -%>
+<?php
+$title = 'WebComet.fr - Création de site web et référencement naturel SEO - Webmaster freelance';
+$description = 'Vous cherchez un webmaster ou développeur web freelance pour créer votre site web ? Vous cherchez un consultant SEO pour améliorer votre référencement naturel ? Alors contactez-moi';
+$canonical = 'https://webcomet.fr/';
+?>
+
+<?php require 'partials/head.php';?>
 
     <body>
         <div id="header">
@@ -13,8 +19,8 @@
             </nav>
 
             <span id="nav-link" class="invisible">
-                <a href="webmaster-creation-site-vitrine">Création de site vitrine</a>
-                <a href="consultant-seo">SEO</a>
+                <a href="webmaster-creation-site-vitrine.php">Création de site vitrine</a>
+                <a href="consultant-seo.php">SEO</a>
             </span>
 
             <div id="header-container">
@@ -34,10 +40,10 @@
                     <h2>Création de site web</h2>
                 </span>
                 <span class="box-main">
-                    <img id="creation_site_web_img" src="images/creation_site_web.png" alt="">
+                    <img id="creation_site_web_img" src="public/images/creation_site_web.png" alt="">
                     <div class="box-text">
                         <p>Vous avez trouvé le <strong>webmaster</strong> qu'il vous faut pour créer votre site vitrine</p>
-                        <a class="newButton" href="/webmaster-creation-site-vitrine">En savoir plus</a>
+                        <a class="newButton" href="/webmaster-creation-site-vitrine.php">En savoir plus</a>
                     </div>
                 </span>
             </div>
@@ -49,9 +55,9 @@
                 <span class="box-main">
                     <div class="box-text">
                         <p>Améliorer les positions de votre site web sur les moteurs de recherche</p>
-                        <a class="newButton" href="/consultant-seo">En savoir plus</a>
+                        <a class="newButton" href="/consultant-seo.php">En savoir plus</a>
                     </div>
-                    <img id="seo_img" src="images/seo.png" alt="">
+                    <img id="seo_img" src="public/images/seo.png" alt="">
                 </span>
             </div>
 
@@ -60,11 +66,11 @@
                 <h2>Contactez-moi</h2>
 
                 <p>Contactez-moi pour une demande de création de site web, ou d'optimisation de référencement naturel SEO</p>
-                <%- include('partials/form'); -%>
+                <?php require 'partials/form.php';?>
             </div>
         </main>
 
-        <%- include('partials/footer'); -%>
+        <?php require 'partials/footer.php';?>
     </body>
 
     </html>

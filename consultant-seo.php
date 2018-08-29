@@ -1,4 +1,10 @@
-<%- include('partials/head'); -%>
+<?php
+$title = 'Consultant SEO à Rennes - Webmaster';
+$description = 'Consultant SEO';
+$canonical = 'https://webcomet.fr/consultant-seo.php';
+?>
+
+<?php require 'partials/head.php';?>
 
     <body>
         <div id="header">
@@ -13,8 +19,8 @@
             </nav>
 
             <span id="nav-link" class="invisible">
-                <a href="webmaster-creation-site-vitrine">Création de site vitrine</a>
-                <a href="consultant-seo">SEO</a>
+                <a href="webmaster-creation-site-vitrine.php">Création de site vitrine</a>
+                <a href="consultant-seo.php">SEO</a>
             </span>
 
             <div id="header-container">
@@ -55,7 +61,7 @@
                 <div class="portfolio-container">
                     <div class="portfolio-row">
                         <div class="box-portfolio">
-                            <img src="images/portfolio/emsam_serrurerie.jpg" alt="">
+                            <img src="public/images/portfolio/emsam_serrurerie.jpg" alt="">
                             <div class="box-portfolio-text">
                                 <h3>Emsam-serrurerie</h3>
                                 <p>
@@ -66,7 +72,7 @@
                         </div>
 
                         <div class="box-portfolio">
-                            <img src="images/portfolio/michele_barange.png" alt="">
+                            <img src="public/images/portfolio/michele_barange.png" alt="">
                             <div class="box-portfolio-text">
                                 <h3>Artiste peintre à Rennes</h3>
                                 <p>
@@ -79,7 +85,7 @@
 
                     <div class="portfolio-row">
                         <div class="box-portfolio">
-                            <img src="images/portfolio/allo-peintre33.png" alt="">
+                            <img src="public/images/portfolio/allo-peintre33.png" alt="">
                             <div class="box-portfolio-text">
                                 <h3>Allo-Brico33 & Allo-Peintre33</h3>
                                 <p>
@@ -90,7 +96,7 @@
                         </div>
 
                         <div class="box-portfolio">
-                            <img src="images/portfolio/mb-services-debarras.png" alt="">
+                            <img src="public/images/portfolio/mb-services-debarras.png" alt="">
                             <div class="box-portfolio-text">
                                 <h3>MB Services Débarras</h3>
                                 <p>
@@ -109,13 +115,13 @@
                 <h2>Contactez-moi</h2>
 
                 <p>Contactez-moi pour une demande d'optimisation SEO</p>
-                <%- include('partials/form'); -%>
+                <?php require 'partials/form.php';?>
             </div>
         </main>
 
         <!-- TARIFS ANNUELS ABONNEMENT OU OPTIMISATION D'UN COUP + SUIVI -->
 
-        <%- include('partials/footer'); -%>
+        <?php require 'partials/footer.php';?>
     </body>
 
     </html>

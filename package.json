@@ -1,19 +1,16 @@
 {
-  "name": "webcomet-express",
-  "version": "0.0.0",
-  "private": true,
+  "name": "webcomet_php",
+  "version": "1.0.0",
+  "description": "WebComet.fr, création de site web et référencement naturel SEO.",
+  "main": "gulpfile.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "ejs": "~2.5.7",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
-    "node-sass-middleware": "0.11.0",
-    "nodemailer": "^4.6.8"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
   }
 }

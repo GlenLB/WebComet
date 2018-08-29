@@ -1,4 +1,10 @@
-<%- include('partials/head'); -%>
+<?php
+$title = 'Webmaster Création de site vitrine à Rennes et SEO';
+$description = 'Création de site vitrine';
+$canonical = 'https://webcomet.fr/webmaster-creation-site-vitrine.php';
+?>
+
+<?php require 'partials/head.php';?>
 
     <body>
         <div id="header">
@@ -13,8 +19,8 @@
             </nav>
 
             <span id="nav-link" class="invisible">
-                <a href="webmaster-creation-site-vitrine">Création de site vitrine</a>
-                <a href="consultant-seo">SEO</a>
+                <a href="webmaster-creation-site-vitrine.php">Création de site vitrine</a>
+                <a href="consultant-seo.php">SEO</a>
             </span>
 
             <div id="header-container">
@@ -53,7 +59,7 @@
                 <div class="portfolio-container">
                     <div class="portfolio-row">
                         <div class="box-portfolio">
-                            <img src="images/portfolio/emsam_serrurerie.jpg" alt="">
+                            <img src="public/images/portfolio/emsam_serrurerie.jpg" alt="">
                             <div class="box-portfolio-text">
                                 <h3>Emsam-serrurerie</h3>
                                 <p>
@@ -64,7 +70,7 @@
                         </div>
 
                         <div class="box-portfolio">
-                            <img src="images/portfolio/michele_barange.png" alt="">
+                            <img src="public/images/portfolio/michele_barange.png" alt="">
                             <div class="box-portfolio-text">
                                 <h3>Artiste peintre</h3>
                                 <p>
@@ -77,7 +83,7 @@
 
                     <div class="portfolio-row">
                         <div class="box-portfolio">
-                            <img src="images/portfolio/newlive.jpg" alt="">
+                            <img src="public/images/portfolio/newlive.jpg" alt="">
                             <div class="box-portfolio-text">
                                 <h3>Newlive</h3>
                                 <p>
@@ -88,7 +94,7 @@
                         </div>
 
                         <div class="box-portfolio">
-                            <img src="images/portfolio/sauve-le-koala.png" alt="">
+                            <img src="public/images/portfolio/sauve-le-koala.png" alt="">
                             <div class="box-portfolio-text">
                                 <h3>Sauve le koala</h3>
                                 <p>
@@ -107,13 +113,13 @@
                 <h2>Contactez-moi</h2>
 
                 <p>Contactez-moi pour une demande de création de site vitrine</p>
-                <%- include('partials/form'); -%>
+                <?php require 'partials/form.php';?>
             </div>
         </main>
 
         <!-- AJOUTER TARIFS + PACKS AVEC CONTENU POUR CHAQUE PACK -->
 
-        <%- include('partials/footer'); -%>
+        <?php require 'partials/footer.php';?>
     </body>
 
     </html>
