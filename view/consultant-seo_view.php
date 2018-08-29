@@ -1,9 +1,3 @@
-<?php
-$title = 'Consultant SEO à Rennes - Webmaster';
-$description = 'Consultant SEO';
-$canonical = 'https://webcomet.fr/consultant-seo.php';
-?>
-
 <?php require 'partials/head.php';?>
 
     <body>
@@ -19,8 +13,8 @@ $canonical = 'https://webcomet.fr/consultant-seo.php';
             </nav>
 
             <span id="nav-link" class="invisible">
-                <a href="webmaster-creation-site-vitrine.php">Création de site vitrine</a>
-                <a href="consultant-seo.php">SEO</a>
+                <a href="webmaster-creation-site-vitrine">Création de site vitrine</a>
+                <a href="consultant-seo">SEO</a>
             </span>
 
             <div id="header-container">

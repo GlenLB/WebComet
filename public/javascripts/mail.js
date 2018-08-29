@@ -11,6 +11,7 @@ btnSubmit.onclick = () => {
         let xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
             if (xhr.readyState == 4) {
+                console.log(xhr.responseText);
                 if (xhr.responseText == 'ok') {
                     document.getElementsByTagName('form')[0].innerHTML += '<div style="background:yellowgreen; color: white; padding: 20px; text-align:center; margin-top: 40px; border-radius: 20px;">Votre message a été envoyé avec succès. J\'y répondrai dans les meilleurs délais</div>';
                     window.scrollTo(0, document.body.scrollHeight);

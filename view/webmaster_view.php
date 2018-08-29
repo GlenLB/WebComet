@@ -1,9 +1,3 @@
-<?php
-$title = 'Webmaster Création de site vitrine à Rennes et SEO';
-$description = 'Création de site vitrine';
-$canonical = 'https://webcomet.fr/webmaster-creation-site-vitrine.php';
-?>
-
 <?php require 'partials/head.php';?>
 
     <body>
@@ -19,8 +13,8 @@ $canonical = 'https://webcomet.fr/webmaster-creation-site-vitrine.php';
             </nav>
 
             <span id="nav-link" class="invisible">
-                <a href="webmaster-creation-site-vitrine.php">Création de site vitrine</a>
-                <a href="consultant-seo.php">SEO</a>
+                <a href="webmaster-creation-site-vitrine">Création de site vitrine</a>
+                <a href="consultant-seo">SEO</a>
             </span>
 
             <div id="header-container">
