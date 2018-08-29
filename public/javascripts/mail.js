@@ -1,11 +1,9 @@
 // MAIL
 let btnSubmit = document.getElementById('btnSubmit');
-let emailAddress = document.getElementById('emailAddress');
-let message = document.getElementById('message');
 
 btnSubmit.onclick = () => {
-    emailAddress = emailAddress.value;
-    message = message.value;
+    let emailAddress = document.getElementById('emailAddress').value;
+    let message = document.getElementById('message').value;
 
     if (emailAddress.length >= 10 && message.length >= 10 && emailAddress.includes('@')) {
         let xhr = new XMLHttpRequest();
