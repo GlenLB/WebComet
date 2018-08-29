@@ -1,10 +1,8 @@
-Vérifier que j'ai sauvegarde de sauve le koala sur pc => Oui : Dans NetBeansProjects_old
-
 Redémarrer nouvelle instance vps OVH (écraser ancienne)
 
 Y installer apache2 et php
 
-Configurer apache
+Configurer apache (root directory)
 
 Deployer les fichiers sur le serveur
 
