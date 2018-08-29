@@ -2,12 +2,12 @@ Vérifier que j'ai sauvegarde de sauve le koala sur pc => Oui : Dans NetBeansPro
 
 Redémarrer nouvelle instance vps OVH (écraser ancienne)
 
-Y installer npm node pm2
+Y installer apache2 et php
 
-Faire modifs sur fichiers source : port
+Configurer apache
 
-Deployer sur serveur, mettre node_env sur production et lancer avec pm2
+Deployer les fichiers sur le serveur
 
 Voir pour https cerbot
 
-Migrer jeu sur node.js
+Migrer jeu sur php
