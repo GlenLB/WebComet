@@ -47,7 +47,9 @@
                 </ul>
 
                 <p>
-                    Le SEO est un investissement qu'il ne faut pas négliger pour votre activité en ligne. Avoir un bon référencement naturel peut en effet d'une part vous éviter de dépenser un trop gros budget en publicités, par exemple en annonces payantes Adwords, et d'autre part d'augmenter votre visibilité auprès de votre clientèle cible, vous créant de plus nombreuses opportunités commerciales.
+                    Le SEO est un investissement qu'il ne faut pas négliger pour votre activité en ligne. Avoir un bon référencement naturel peut en effet d'une part vous éviter de dépenser un trop gros budget en publicités, par exemple en annonces payantes Adwords, et d'autre part d'augmenter votre visibilité auprès de votre clientèle cible, vous créant de plus nombreuses opportunités commerciales.<br><br>
+
+                    Si vous n'avez pas encore de site web, vous devriez consulter ma page de <a href="/webmaster-creation-site-vitrine">création de site vitrine optimisé pour le SEO</a>.
                 </p>
 
                 <h2 class="titre mt7">Les dernières optimisations SEO que j'ai réalisé</h2>

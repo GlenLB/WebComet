@@ -45,7 +45,9 @@
                 </ul>
 
                 <p>
-                    Vous l'aurez compris, en faisant appel à mes services vous n'aurez pas un site vitrine créé à la chaîne avec un thème WordPress peu personnalisé, lent, mal optimisé pour le SEO et lourd, comme beaucoup en font.<br> Au contraire vous aurez un site vitrine développé sur mesure selon vos envies, léger et rapide, optimisé pour flirter avec les premières positions sur Google, créé avec les dernières technologies web du moment (Javascript, Node.js, React.js).
+                    Vous l'aurez compris, en faisant appel à mes services vous n'aurez pas un site vitrine créé à la chaîne avec un thème WordPress peu personnalisé, lent, mal optimisé pour le SEO et lourd, comme beaucoup en font.<br> Au contraire vous aurez un site vitrine développé sur mesure selon vos envies, léger et rapide, optimisé pour flirter avec les premières positions sur Google, créé avec les dernières technologies web du moment (Javascript, Node.js, React.js).<br><br>
+
+                    Si vous avez déjà un site web dont vous voulez améliorer le référencement naturel, vous devriez consulter ma page de <a href="/consultant-seo">consultant SEO</a>.
                 </p>
 
                 <h2 class="titre mt7">Mes dernières réalisations</h2>
