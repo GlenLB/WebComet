@@ -1,15 +1,8 @@
-Redémarrer nouvelle instance vps OVH (écraser ancienne)
-
-Y installer apache2 et php
-
-Configurer apache (root directory)
-
-Deployer les fichiers sur le serveur
-
-Voir pour https cerbot
-
-Migrer jeu sauve le koala sur php
-
 Bugs : 
-- overflow html
 - Mail, refaire variables à chaque fois qu'on clique sur le bouton
+
+
+
+- Page mentions légales
+- Bannière cookies RGPD
+- Google Analytics
