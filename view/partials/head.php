@@ -14,4 +14,8 @@
     <title><?php echo $title ?></title>
     <meta name="description" content=<?php echo $description ?> />
     <link rel="canonical" href=<?php echo $canonical ?> />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content=<?php echo $title ?> />
+    <meta property="og:image" content="public/images/capture.png" />
 </head>
