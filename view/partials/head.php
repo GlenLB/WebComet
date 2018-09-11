@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <title><?php echo $title ?></title>
-    <meta name="description" content=<?php echo $description ?> />
+    <meta name="description" content="<?php echo $description ?>" />
     <link rel="canonical" href=<?php echo $canonical ?> />
 
     <!-- Open Graph -->
-    <meta property="og:title" content=<?php echo $title ?> />
+    <meta property="og:title" content="<?php echo $title ?>" />
     <meta property="og:image" content="public/images/capture.png" />
 </head>
