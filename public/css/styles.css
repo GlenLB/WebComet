@@ -281,7 +281,8 @@ nav {
 
 #creation_site_web_img {
   width: 400px;
-  max-width: 450px; }
+  max-width: 450px;
+  height: 100%; }
   @media all and (max-width: 950px) {
     #creation_site_web_img {
       width: 80%;
@@ -289,7 +290,8 @@ nav {
 
 #seo_img {
   width: 300px;
-  max-width: 350px; }
+  max-width: 350px;
+  height: 100%; }
   @media all and (max-width: 950px) {
     #seo_img {
       width: 80%;

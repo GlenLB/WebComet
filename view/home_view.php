@@ -34,7 +34,7 @@
                     <h2>Création de site web</h2>
                 </span>
                 <span class="box-main">
-                    <img id="creation_site_web_img" src="public/images/creation_site_web.png" alt="">
+                    <img id="creation_site_web_img" src="public/images/creation_site_web.png" alt="Webmaster Pacé Rennes">
                     <div class="box-text">
                         <p>Vous avez trouvé le <strong>webmaster</strong> qu'il vous faut pour créer votre site vitrine</p>
                         <a class="newButton" href="/webmaster-creation-site-vitrine">En savoir plus</a>
@@ -51,7 +51,7 @@
                         <p>Améliorer les positions de votre site web sur les moteurs de recherche</p>
                         <a class="newButton" href="/consultant-seo">En savoir plus</a>
                     </div>
-                    <img id="seo_img" src="public/images/seo.png" alt="">
+                    <img id="seo_img" src="public/images/seo.png" alt="Consultant SEO Pacé Rennes">
                 </span>
             </div>
 
