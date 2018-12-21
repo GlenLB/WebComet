@@ -18,7 +18,7 @@
             </span>
 
             <div id="header-container">
-                <h1>Création de site web &amp; référencement naturel SEO</h1>
+                <h1>Création de site web &amp;<br> Référencement naturel SEO à Rennes</h1>
                 <div id="btnContact" class="newButton">Contact</div>
             </div>
         </div>

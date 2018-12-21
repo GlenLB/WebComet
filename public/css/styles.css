@@ -133,7 +133,8 @@ nav {
   padding-bottom: 180px; }
   #header h1 {
     color: white;
-    font-size: 25px; }
+    font-size: 25px;
+    text-align: center; }
   #header .lien-logo {
     border-bottom: 0px;
     outline: none; }

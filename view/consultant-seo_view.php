@@ -18,7 +18,7 @@
             </span>
 
             <div id="header-container">
-                <h1>Consultant SEO à Rennes</h1>
+                <h1>Consultant SEO (référencement naturel)<br> freelance à Rennes</h1>
                 <div id="btnContact" class="newButton">Contact</div>
             </div>
         </div>
@@ -30,7 +30,7 @@
 
         <main>
             <div class="content" id="elem1">
-                <h2 class="titre">Je peux améliorer les positions de votre site web dans les résultats des moteurs de recherche comme Google</h2>
+                <h2 class="titre">Je peux améliorer les positions de votre site web (SEO) dans les résultats des moteurs de recherche comme Google</h2>
 
                 <p>
                     Vous avez un site web en ligne, mais vous ne le trouvez pas assez visible dans les résultats des moteurs de recherche (Google, Bing, etc.) ? Vos clients potentiels n'arrivent pas à trouver votre site web sur les requêtes qui seraient intéressantes pour votre activité et pour votre localisation ? Vous cherchez un consultant SEO pour régler le problème et augmenter votre visibilité et votre chiffre d'affaires ?<br>
