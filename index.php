@@ -19,6 +19,9 @@ switch ($uri) {
     case '/conditions-generales':
         require 'controllers/conditions-generales.php';
         break;
+    case '/mentions-legales':
+        require 'controllers/mentions-legales.php';
+        break;
     default:
         require 'view/404.php';
 }
