@@ -185,7 +185,8 @@ opérations d’achat et de vente qui y sont visées, seront soumises au droit f
             <div class="contact_box">
                 <h2>Contactez-moi</h2>
 
-                <p>Contactez-moi pour une demande d'optimisation SEO</p>
+                <p>Contactez-moi pour une demande d'optimisation SEO<br>
+                ou de création de site web</p>
                 <?php require 'partials/form.php';?>
             </div>
         </main>

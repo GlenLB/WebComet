@@ -59,7 +59,8 @@
             <div class="contact_box">
                 <h2>Contactez-moi</h2>
 
-                <p>Contactez-moi pour une demande de création de site web, ou d'optimisation de référencement naturel SEO</p>
+                <p>Contactez-moi pour une demande de création de site web<br>
+                ou d'optimisation de référencement naturel SEO</p>
                 <?php require('partials/form.php'); ?>
             </div>
         </main>
