@@ -1,6 +1,6 @@
 <footer>
     <p>
-        Tous droits réservés WebComet.fr - <a href="/mentions-legales.php">Mentions légales</a>
+        Tous droits réservés WebComet.fr - <a href="/mentions-legales">Mentions légales</a> - <a href="/conditions-generales">CGV</a>
     </p>
 </footer>
 
