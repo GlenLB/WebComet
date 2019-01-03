@@ -20,5 +20,5 @@ switch ($uri) {
         require 'controllers/conditions-generales.php';
         break;
     default:
-        echo '404';
+        require 'view/404.php';
 }
