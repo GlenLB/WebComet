@@ -33,7 +33,7 @@
                 <h2 class="titre">Vous souhaitez faire réaliser un site vitrine ? Je peux vous le créer sur-mesure à un prix compétitif</h2>
 
                 <p>
-                    Vous avez besoin d'un site vitrine pour présenter votre activité, être plus visible sur internet et attirer plus de clients ?<br> Mes prestations en création de site vitrine sont avantageuses pour vous : en me confiant la réalisation de votre site vitrine, vous faite appel à un webmaster indépendant qui vous coûtera moins cher qu'une agence web. De plus, mes disponibilités sont plus grandes, mes horaires plus flexibles : vous pourrez me joindre plus facilement.<br><br> Les sites web que je créé sont de qualité :
+                    Vous avez besoin d'un site vitrine pour présenter votre activité, être plus visible sur internet et attirer plus de clients ?<br> Mes prestations en <strong>création de site vitrine</strong> sont avantageuses pour vous : en me confiant la réalisation de votre site vitrine, vous faite appel à un webmaster indépendant qui vous coûtera moins cher qu'une agence web. De plus, mes disponibilités sont plus grandes, mes horaires plus flexibles : vous pourrez me joindre plus facilement.<br><br> Les sites web que je créé sont de qualité :
                 </p>
                 <ul>
                     <li><i class="far fa-check-circle"></i>Développement de votre site vitrine sur-mesure</li>
@@ -109,13 +109,13 @@
                 <h2>Contactez-moi</h2>
 
                 <p>Contactez-moi pour une demande de création de site vitrine</p>
-                <?php require('partials/form.php'); ?>
+                <?php require 'partials/form.php';?>
             </div>
         </main>
 
         <!-- AJOUTER TARIFS + PACKS AVEC CONTENU POUR CHAQUE PACK -->
 
-        <?php require('partials/footer.php') ;?>
+        <?php require 'partials/footer.php';?>
     </body>
 
     </html>

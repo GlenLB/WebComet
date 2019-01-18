@@ -1,6 +1,7 @@
 <?php
 // ROUTER
-
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 $uri = $_SERVER['REQUEST_URI'];
 
 switch ($uri) {
@@ -21,6 +22,10 @@ switch ($uri) {
         break;
     case '/mentions-legales':
         require 'controllers/mentions-legales.php';
+        break;
+    case '/prenoms':
+        //echo("hello");
+        require 'controllers/prenoms/analyse-data.php';
         break;
     default:
         require 'view/404.php';
