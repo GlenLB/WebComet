@@ -24,8 +24,10 @@ switch ($uri) {
         require 'controllers/mentions-legales.php';
         break;
     case '/prenoms':
-        //echo("hello");
         require 'controllers/prenoms/analyse-data.php';
+        break;
+    case '/cv':
+        require 'CV/cv.php';
         break;
     default:
         require 'view/404.php';
