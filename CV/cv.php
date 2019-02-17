@@ -32,9 +32,9 @@
         35740 PACÉ</i>
         <!-- Liens -->
         <h2>Liens</h2>
-        <i class="fab fa-linkedin"></i><i> LinkedIn : <a href="https://www.linkedin.com/in/glen-le-baill/">https://www.linkedin.com/in/glen-le-baill/</a></i><br>
-        <i class="fab fa-github"></i><i> Github : <a href="https://github.com/GlenLB">https://github.com/GlenLB</a></i><br>
-        <i class="fas fa-external-link-alt"></i><i> Site freelance : <a href="https://webcomet.fr/">https://webcomet.fr/</a></i><br>
+        <i class="fab fa-linkedin"></i><i> LinkedIn : <a target="_blank" href="https://www.linkedin.com/in/glen-le-baill/">https://www.linkedin.com/in/glen-le-baill/</a></i><br>
+        <i class="fab fa-github"></i><i> Github : <a target="_blank" href="https://github.com/GlenLB">https://github.com/GlenLB</a></i><br>
+        <i class="fas fa-external-link-alt"></i><i> Site freelance : <a target="_blank" href="https://webcomet.fr/">https://webcomet.fr/</a></i><br>
         <!-- QR Code CV en ligne -->
         <img id="qrCode" src="CV/img/qrCode.png" alt="QR code CV en ligne Glen Le Baill">
         <!-- PROJETS -->
