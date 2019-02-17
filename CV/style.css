@@ -98,6 +98,8 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: left;
+        max-width: auto;
+        max-height: auto;
     }
 
     /* image de profil */
