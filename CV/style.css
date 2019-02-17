@@ -28,6 +28,11 @@ nav {
     border-radius: 10px;
 }
 
+/* Pour que les liens dans la nav s'affichent bien */
+nav a {
+    word-wrap: break-word;
+}
+
 /* Liens */
 nav a:visited, nav a {
     color: #98fb98;
@@ -111,10 +116,6 @@ hr {
     nav {
         max-width: 100%;
         width: auto;
-    }
-
-    nav a {
-        word-wrap: break-word;
     }
 
     /* Icones Font Awesome */
