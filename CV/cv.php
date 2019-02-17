@@ -59,14 +59,15 @@
                     <ul>
                         <li>Golang</li>
                         <li>Java</li>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>SQL</li>
+                        <li>Scala</li>
                     </ul>
                     <ul>
                         <li>PHP</li>
-                        <li>Scala</li>
-                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                    </ul>
+                    <ul>
+                        <li>SQL</li>
                         <li>HTML, CSS</li>
                         <li>XML, JSON</li>
                     </ul>
@@ -86,9 +87,10 @@
                 <h3>Concepts</h3>
                 <ul>
                     <li>Gestion de versions, travail en équipe : <strong>Git, Github, GitLab</strong></li>
-                    <li>Programmation web client et serveur, API</li>
+                    <li>Programmation web client et serveur, MVC</li>
                     <li>Programmation procédurale, orientée objet, fonctionnelle, événementielle</li>
-                    <li>Tests unitaires</li>
+                    <li>Documentation, tests unitaires</li>
+                    <li>Webservices et API REST</li>
                 </ul>
             </div>
         </div>
@@ -117,5 +119,8 @@
             </p>
         </div>
     </div>
+
+    <!-- Bouton téléchargement -->
+    <a id="btnTelechargement" href="CV/img/cv.pdf" download>Télécharger le CV</a>
 </body>
 </html>
