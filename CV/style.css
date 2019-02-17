@@ -90,16 +90,14 @@ hr {
     background: linear-gradient(#89a2ed, #4169e1);
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE /////////////// */
+/* Pour les téléphones */
 @media (max-width: 500px) {
 
     body {
         display: flex;
         flex-direction: column;
         justify-content: left;
-        /* Pour imprimer le CV */
-        /*max-width: 21cm;
-        max-height: 29.7cm;*/
     }
 
     /* image de profil */
