@@ -37,10 +37,6 @@
         <i class="fas fa-external-link-alt"></i><i> Site freelance : <a target="_blank" href="https://webcomet.fr/">https://webcomet.fr/</a></i><br>
         <!-- QR Code CV en ligne -->
         <img id="qrCode" src="CV/img/qrCode.png" alt="QR code CV en ligne Glen Le Baill">
-        <!-- PROJETS -->
-        <div>
-            <!-- TODO -->
-        </div>
     </nav>
 
     <!-- /////////////////////////////// SECTION DROITE ////////////////////////////////// -->
