@@ -18,7 +18,7 @@
     <!-- PHOTO DE PROFIL, INFORMATIONS DE CONTACT, LIENS -->
     <nav>
         <!-- Photo de profil -->
-        <img id="photoProfil" src="CV/img/googlebot.png" alt="Photo de profil Glen Le Baill">
+        <img id="photoProfil" src="CV/img/profil2.jpg" alt="Photo de profil Glen Le Baill">
         <!-- Nom -->
         <h1>Glen Le Baill</h1>
         <!-- Age -->
